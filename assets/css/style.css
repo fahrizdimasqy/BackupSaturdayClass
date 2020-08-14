@@ -54,18 +54,19 @@ body {
 }
 
 .navbar .logo {
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
 }
 
 .navbar .logo a {
     text-decoration: none;
     color: white;
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 .navbar .logo a:hover {
-    color: rgb(202, 202, 202);
+    font-weight: bold;
 }
 
 
@@ -141,6 +142,22 @@ ul li a {
 .header .line {
     text-align: center;
     width: 100%;
+}
+
+.header .line span {
+    margin: 0 2px;
+}
+
+.header .line span:nth-child(1) {
+    width: 5%;
+}
+
+.header .line span:nth-child(2) {
+    width: 5%;
+}
+
+.header .line span:nth-child(3) {
+    width: 5%;
 }
 
 header img.profile {
@@ -397,7 +414,6 @@ select {
 }
 
 
-
 .second-column {
     flex: 1;
 }
@@ -408,6 +424,16 @@ select {
 
 .third-column {
     flex: 1;
+}
+
+.third-column a {
+    color: #26ae60;
+    text-decoration: none;
+}
+
+.third-column a:hover {
+    color: #1c8b4c;
+    text-decoration: underline;
 }
 
 /* akhir bottom*/
